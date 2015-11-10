@@ -1,0 +1,83 @@
+extends layouts/default
+
+block content
+  article.startup-class
+    header.site-header.site-header--startup-class
+      h1 Hatch <br> Start-up Class
+      p.lead For talents who first want to experience what a start-up is, before deciding if they want to start one of their own. Help build a pre-existing idea and take it to the market just in a few months.
+
+  section.site-section
+    header.site-section__header
+      h1 Goal
+      p.lead The goal of the Hatch Start-Up Class is to build a minimum viable product, starting with a pre-existing idea and take it to the market just in a few months. This journey will challenge and push their skills to the next level.
+
+      h2 Stay up to date
+
+      form.form-inline#subForm(action='http://metatalk.createsend.com/t/r/s/ddtulth/', method='post')
+        .form-group
+          input.form-control#fieldEmail(name='cm-ddtulth-ddtulth', type='email', required='', placeholder="Your e-mail address")
+        button.btn.btn-default(type='submit') Subscribe
+
+  section.site-section.site-section--speakers
+    header.site-section__header
+      h1 Team
+      p.lead Meet the team behind this edition of Hatch Start-Up class! This group of talented individuals are all hand-picked to be the perfect team for this project.
+    .row
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-nick.jpg")
+        h2 Nick Wessaert
+        p Marketing & Events
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-niels.jpg")
+        h2 Niels Cosemans
+        p Marketing & Copy
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-michiel.jpg")
+        h2 Michiel Lateur
+        p Video & Photography
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-manuel.jpg")
+        h2 Manuel Minutello
+        p Video & Photography
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-renaat.jpg")
+        h2 Renaat Nijs
+        p Mentor Video & Photography
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-jasper.jpg")
+        h2 Jasper Meurs
+        p Mentor Marketing & Development
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-bert.jpg")
+        h2 Bert Schols
+        p Founder & Mentor
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-speaker-toon.jpg")
+        h2 Toon Carpentier
+        p Founder & Mentor
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-gilbert.jpg")
+        h2 Gilbert Nijs
+        p Legal & Finance
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-empty.gif")
+        h2 You?
+        p Developer
+        a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?subject=I want to be a developer at Hatch Start-up Class') Apply
+      .col-md-4.speakers__speaker
+        img.img-responsive(src="/images/hatch-startup-empty.gif")
+        h2 You?
+        p Designer (UI/UX)
+        a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?subject=I want to be a designer at Hatch Start-up Class') Apply
+
+    footer
+      h3 Want to join this team?
+      p Hatch is still looking for new talent to join our Start-up class.
+      a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?subject=Apply for Start-up Class') Join Hatch Start-up Class
+
+  section.site-section.site-section--follow
+    header.site-section__header
+      h1 Follow Hatch Start-up Class
+      p.lead #hatchstartupclass on Instagram
+      .site-section--follow__stream
+        iframe(src="http://snapwidget.com/bd/?h=aGF0Y2hzdGFydHVwY2xhc3N8aW58MzAwfDN8M3x8eWVzfDIwfG5vbmV8b25TdGFydHx5ZXN8bm8=&ve=071115" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:966px; height:441px")

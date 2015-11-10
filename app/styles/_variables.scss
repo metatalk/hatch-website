@@ -1,0 +1,19 @@
+$yellow: #251B57;
+
+$font-family-sans-serif:  "Roboto", Helvetica, Arial, sans-serif !default;
+$headings-font-family: "Roboto Slab", Helvetica, Arial, sans-serif !default;
+$headings-font-weight: 700;
+
+$border-radius-base: 0;
+$border-radius-large: 0;
+
+$font-size-base: 14px !default;
+$font-size-h2: floor(($font-size-base * 1.8));
+
+$btn-default-color: #333 !default;
+$btn-default-bg: transparent !default;
+$btn-default-border: #333 !default;
+
+$navbar-default-color:             #333 !default;
+$navbar-default-bg:                #FFF !default;
+$navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;

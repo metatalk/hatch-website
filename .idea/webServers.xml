@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="065845fd-077e-4008-b42c-fb5829c3db08" name="Hatch live" url="http://ftp.hatchcommunity.be">
+        <fileTransfer host="ftp.hatchcommunity.be" port="21" rootFolder="/public_html" password="dfc2dfd3dfc7dfcfdfdedfcbdfe7dfc5dfd8dfccdfc5dfd9dfefdf9bdf9ddf99df9e" username="hatch">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

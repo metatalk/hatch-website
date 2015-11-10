@@ -1,0 +1,262 @@
+$icon-font-path: '../fonts/';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,300italic,400italic,500,700,900|Roboto+Slab:400,300,100,700);
+@import "variables";
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: 20px;
+  }
+
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  color: #111;
+  img {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+
+  }
+}
+
+.form-control {
+  height: 38px;
+  border-width: 3px;
+  border-color: #333;
+  min-width: 300px;
+}
+
+.btn {
+  border-width: 3px;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(1.05);
+    background: #141414;
+    color: #FFF;
+  }
+}
+
+.btn-white {
+  border-color: #FFF;
+  color: #FFF;
+  &:hover {
+    background: #FFF;
+    color: #333;
+    border-color: #FFF;
+  }
+}
+
+.site-section {
+  max-width: 1180px;
+  margin: 85px auto;
+  padding: 0 15px 85px 15px;
+  border-bottom: 1px solid #EEE;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: "";
+    background: url(../images/hatch-icon-faded.png) no-repeat center #FFF;
+    background-size: 20px;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    bottom: -25px;
+    margin: 0 0 0 -25px;
+
+  }
+  h1 {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    padding-top: 35px;
+    max-width: 780px;
+    margin: 0 auto;
+    h3 {
+      margin-bottom: 14px;
+    }
+    .btn {
+      margin-top: 10px;
+    }
+  }
+}
+
+  .site-section__header {
+    text-align: center;
+    .lead {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 13px;
+    }
+    h2 {
+      margin-top: 40px;
+    }
+  }
+
+.site-header {
+  background: $yellow;
+  text-align: center;
+  padding: 130px 20px 100px 20px;
+  background: url(../images/header-1.jpg) no-repeat center;
+  background-size: cover;
+  color: #FFF;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $yellow;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    z-index: 0;
+  }
+  > * {
+    position: relative;
+    z-index: 1;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 52px;
+    @media (min-width: 768px) {
+      font-size: 94px;
+    }
+    small {
+      color: #FFF;
+      display: block;
+    }
+  }
+  .lead {
+    margin-top: 20px;
+  }
+}
+
+//*** HOME ***//
+
+
+
+//*** EVENTS ***//
+
+.site-section--events {
+  h2 small {
+    display: block;
+    padding: 10px 0;
+  }
+}
+
+.event {
+  margin: 20px auto;
+  max-width: 1024px;
+}
+
+  .event__date {
+    position: absolute;
+    background: #FFF;
+    right: 25px;
+    top: 10px;
+    text-align: center;
+    padding: 10px;
+    span {
+      display: block;
+      line-height: 1;
+    }
+  }
+
+  .event__date__day {
+    font-family: $headings-font-family;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .event__date__month {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+.event--past {
+  opacity: 0.5;
+}
+
+//*** SPEAKER ***//
+
+.home .site-section--speakers,
+.site-section--follow {
+  border-bottom: none;
+  &:after {
+    display: none;
+  }
+}
+
+.speakers__speaker {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  img {
+    display: inline-block;
+  }
+}
+
+
+
+//*** FOOTER ***//
+
+.site-footer {
+  background: $yellow;
+  text-align: center;
+  color: #FFF;
+  padding-top: 100px;
+  a {
+    color: #FFF;
+  }
+}
+
+.site-footer__partners {
+  margin-top: 100px;
+  background: darken($yellow,7%);
+  padding: 20px 10px;
+  img {
+    max-height: 20px;
+    padding: 0 25px;
+  }
+}
+
+//*** STARTUP CLASS ***//
+
+.site-header--startup-class {
+  background: url(../images/header-2.jpg) no-repeat center;
+  background-size: cover;
+  padding: 150px 20px 130px 20px;
+  &:after {
+    background: #FF4E50;
+  }
+}
+
+.site-section--follow__stream {
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}

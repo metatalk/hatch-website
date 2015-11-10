@@ -1,0 +1,109 @@
+extends layouts/default
+
+block content
+    article.home
+        header.site-header.site-header--home
+            img(src='/images/hatch-logo.png')
+            h1 Hatch
+
+            p.lead Hatch is an organisation that empowers talent to develop into young professionals. We host inspiring talks and organize master classes.
+
+            //a.btn.btn-default.btn-lg.btn-white(href='') Join Hatch
+
+        section.site-section
+            header.site-section__header
+                h1 Hatch start-up class
+                p.lead For talents who first want to experience what a start-up is, before deciding if they want to start one of their own. The goal of the Hatch Start-Up Class is to build a minimum viable product. We start with a pre-existing idea and take it to the market in just a few months. <br><br>This journey will challenge and push their skills to the next level.
+                a.btn.btn-default.btn-lg(href='startup-class.html') Checkout Start-up class
+
+        section.site-section.site-section--events#events
+            header.site-section__header
+                h1 Hatch events
+
+            .row.event
+                .col-md-6
+                    .event__date
+                        span.event__date__day 14
+                        span.event__date__month dec
+                        span.event__date__year 2015
+                    img.img-responsive(src="/images/hatch-event-startupclass.jpg")
+                .col-md-6
+                    h2
+                        span Hatch Start-up Class Pitch
+                        small Corda Campus Hasselt
+                    p The official reveal of the start-up by the members of <a href="/startup-class.html">Hatch Start-Up class</a>. They will win you over and show why you should start using their product today. <br><br>This night is also the official launch of the teaser page. In good Hatch fashion we will add some interesting speakers to the line-up, totally in line with the product the class is about the launch. Let the guessing begin!
+
+            .row.event.event--past
+                .col-md-6
+                    .event__date
+                        span.event__date__day 25
+                        span.event__date__month aug
+                        span.event__date__year 2015
+                    img.img-responsive(src="/images/hatch-event-corda.jpg")
+                .col-md-6
+                    h2
+                        span Hatch Talks with Musketon, Eva Daeleman, ...
+                        small Corda Campus Hasselt
+                    p A fun edition of Hatch with inspiring talks from Nele Reymen, Eva Daeleman, Musketon & Toon Carpentier.
+            .row.event.event--past
+                .col-md-6
+                    img.img-responsive(src="/images/hatch-event-kickoff.jpg")
+                    .event__date
+                        span.event__date__day 23
+                        span.event__date__month oct
+                        span.event__date__year 2013
+                .col-md-6
+                    h2
+                        span Hatch Kick-off
+                        small Kaai.16 Hasselt
+                    p This was the first ever event that introduced Hatch to the world. We had some really interesting speakers from different fields sharing their stories.
+
+            footer
+                h3 Book a Hatch event
+
+                p Would you like to get inspired? We have different topics and formulas depending on the audience. Regardless if you need to give your students an extra boost or want to give your boardroom a different perspective on how to approach business.
+                p Send us some details about yourself and we will send you a proposal how we would inspire you.
+
+                a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?Subject=Book a Hatch event') Get more info
+
+        section.site-section.site-section--speakers#speakers
+            header.site-section__header
+                h1 Hatch Speakers
+                p.lead They all have stories you probably didn’t hear before. Interested in booking one of these speakers for your event? Hit the book button and we'll make it happen.
+
+            .row
+                .col-md-3.speakers__speaker
+                    img.img-responsive(src="/images/hatch-speaker-nele.jpg")
+                    h2 Nele Reymen
+                    p Nele published three novels, writes columns for national magazines, so no doubt she knows how to tell a good story.
+
+                    a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?Subject=Book Nele Reymen') Book
+
+                .col-md-3.speakers__speaker
+                    img.img-responsive(src="/images/hatch-startup-bert.jpg")
+                    h2 Bert Schols
+                    p Bert is co-founder of metatalk.be and helped brands like MTV, Oxfam & Urban Crafts with their online identity.
+
+                    a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?Subject=Book Bert Schols') Book
+
+                .col-md-3.speakers__speaker
+                    img.img-responsive(src="/images/hatch-speaker-toon.jpg")
+                    h2 Toon Carpentier
+                    p Toon is the founder of Talent LAB and works as a talent developer.
+
+                    a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?Subject=Book Toon Carpentier') Book
+
+                .col-md-3.speakers__speaker
+                    img.img-responsive(src="/images/hatch-speaker-bert.jpg")
+                    h2 Bert Dries
+                    p Bert is an illustrator better known as Musketon. He worked for international brands like MTV, Nike & Mazda.
+
+                    a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?Subject=Book Bert Dries') Book
+
+
+            footer
+                h3 Become a Hatch speaker
+
+                p Do you have an inspiring story you want to share with the world? When you are selected to be a Hatch Speaker you get coaching to turn your story into an inspiring talk. You will improve your skills at our own Hatch Talk events. That way, you'll be ready to tell your story to the rest of the world.
+
+                a.btn.btn-default(href='mailto:awesome@hatchcommunity.be?Subject=Become a Hatch speaker') Apply
